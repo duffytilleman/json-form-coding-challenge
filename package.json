@@ -1,0 +1,14 @@
+{
+  "name": "json-form-coding-challenge",
+  "version": "1.0.0",
+  "description": "The goal in this coding challenge is to generate an html form from a [json-schema](http://json-schema.org/). The only elements types that need to be supported are `\"object\"`, `\"array\"`, `\"string\"` and `\"number\"`. Note that arrays and objects can be recursively nested in each other. An array element means that the form result can contain a variable number of sub-elements, each defined in the schema's `items`. You should provide a button for adding additional items.  Do not worry about removing items. Do not worry about form validation. Submission of an incomplete form can be allowed. On form submission, simply output the form contents to `console.log`",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
